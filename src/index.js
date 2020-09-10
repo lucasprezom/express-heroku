@@ -10,6 +10,6 @@ app.use(express.json());
 app.use(routes);
 app.use(...swaggerConfig);
 
-app.get('/', (req, res) => res.json('Health check ok'));
+app.get('/', (req, res) => res.json('Aula de Heroku funcionou TOP!'));
 
 app.listen(port, () => console.log('App running on port', port));
